@@ -1,0 +1,322 @@
+* {
+    font-family: Roboto;
+    font-weight: lighter;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(80, 80, 80);
+    background-image: url(Images/boat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-bottom: 2px solid black;
+
+}
+.nav-h1 {
+    color: rgb(150, 150, 150);
+    float: right;
+    padding-top: 11px;
+    font-size: 22px;
+    margin-right: 20px;
+    transition: color 0.4s;
+}
+.nav-h1:hover {
+    color: rgb(230, 230, 230);
+}
+.logo {
+    height: 50px;
+    border-bottom: 2px solid black;
+    float: left;
+}
+.logo-img {
+    float: left;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.logo-h2 {
+    float: left;
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.content {
+    max-width: 1200px;
+    box-shadow: 0px -20px 80px black;
+    margin-top: 45%;
+    background-color: white;
+    min-height: 2700px;
+    height: auto;
+    border-top: 2px solid black;
+}
+@media (max-width: 1200xp){
+    .content{max-width: 970px}
+}
+@media (max-width: 992xp){
+    .content{max-width: 750px}
+}
+@media (max-width: 767px){
+    .content{max-width: none}
+}
+/* QUESTIONS */
+.questions {
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: white;
+    min-height: 22%;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+.question {
+    text-align: center;
+    margin: 0px auto;
+    height: 100%;
+    width: auto;
+    float: left;
+}
+.question-card {
+    margin: 0px auto;
+    text-align: center;
+    height: 520px;
+    margin: 40px;
+    border-radius: 40px;
+    transition: box-shadow 1s;
+}
+.card-h1 {
+    margin-top: 60px;
+    text-align: center;
+}
+.card-h2 {
+    margin: 15px;
+    text-align: center;
+    width: 400px;
+}
+.card-img {
+    padding-top: 10px;
+    text-align: center;
+}
+.card-icon {
+    height: 64px;
+}
+.card-image {
+    height: 64px;
+    width: 64px;
+    border-radius: 50px;
+}
+.boat-image {
+    height: 64px;
+    border-radius: 20px;
+}
+/* REVIEW */
+.review {
+    width: 100%;
+    float: left;
+    min-height: 22%;
+    height: auto;
+    background-color: white;
+}
+.review-h1 {
+    padding: 30px;
+    text-align: center;
+}
+.video-review {
+    padding-top: -50px;
+}
+.scr-review {
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+.scr-box {
+    width: 500px;
+    float: left;
+}
+.review-img {
+    width: 500px;
+    height: 140px;
+    padding: 20px;
+}
+/* PHOTOS */
+.photos {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: white;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5)
+}
+.photo {
+    height: 300px;
+}
+/* PRICE */
+.price {
+    width: 100%;
+    float: left;
+    min-height: 22%;
+    height: auto;
+    background-color: white;
+}
+.price-card {
+    flex: 0 1 33.333%;
+
+    border-radius: 20px;
+    width: 460px;
+    float: left;
+    height: 400px;
+    transition: box-shadow 1s;
+}
+.price-card-h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.price-card-h2 {
+    padding: 0px 30px 0px 30px;
+    width: 400px;
+    text-align: center;
+}
+.price-button {
+    padding: 20px;
+    text-align: center;
+    color: black;
+
+}
+.buy {
+    width: 180px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: rgb(200, 100, 50);
+    border-radius: 5px;
+    transition: box-shadow 1s;
+}
+.buy:hover {
+    box-shadow: 0px 0px 40px rgb(200, 100, 50);
+}
+.price-card:hover {
+    box-shadow: 0px 0px 20px black;    
+}
+/* MAP */ 
+.map {
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    float: left;
+    min-height: 22%;
+    height: auto;
+    background-color: white;
+}
+.y-map {
+    margin: -10% 100px 50px 50px;
+    border: 2px solid black;
+    float: right;
+}
+.info {
+    margin: 50px;
+    width: 90%;
+    float: left;
+}
+.map-h2 {
+    float: left;
+    color: rgb(100, 100, 100);
+    padding: 10px 0px 0px 40px;
+    width: 50%;
+}
+.adres {
+    margin-left: 50px;
+}
+/* PHONE */
+.phone {
+    text-align: center;
+    width: 100%;
+    float: left;
+    min-height: 22%;
+    height: auto;
+    background-color: white;
+}
+.number {
+    display: inline-block;
+    background-color: rgb(200, 100, 50);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: black;
+    transition: box-shadow 1s;
+
+}
+.number-url {
+
+    width: 320px;
+    text-align: center;
+}
+.number:hover {
+    box-shadow: 0px 0px 40px rgb(200, 100, 50);
+}
+/* FOOTER */
+footer {
+    width: 100%;
+    float: left;
+    height: 75px;
+    background-color: rgb(50, 50, 50);
+    border-top: 2px solid black;
+}
+.footer-h4 {
+    color: rgb(150, 150, 150);
+    font-weight: lighter;
+    transition: color 1s;
+}
+.footer-h4:hover {
+    color: rgb(230, 230, 230);
+}
+.footer-h4-I {
+    padding-top: 5px;
+    color: white;
+}
+.footer-ul {
+    width: 300px;
+    height: 75px;
+    margin-left: 50px;
+    float: left;
+}
+
+.soc-icon {
+    height: 48px;
+    float: right;
+}
+.footer-soc-ul {
+    height: 60px;
+}
+.footer-soc-li {
+    float: right;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.copyright {
+    margin-right: 40px;
+}
+/* SCROLL */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 5px 5px 100px rgba(34, 60, 80, 0.2);
+  background-color: #2f2f2f;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(0, 147, 193);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* ANIMATIONS */
